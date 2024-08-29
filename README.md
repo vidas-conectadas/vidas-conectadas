@@ -16,6 +16,8 @@ Um projeto universitário da matéria de desenvolvimento web, criado com o intui
 
 **Back-end:** PHP/Laravel
 
+## 🔗 Links
+[![FIGMA]((https://www.figma.com/design/qRzE2McRgOmteCovMif7bc/Figma---Vidas-Conectadas?node-id=0-1&t=DEgSCHpaujpVBjCJ-1))]
 
 ## FAQ
 
