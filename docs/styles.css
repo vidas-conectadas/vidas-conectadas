@@ -1,55 +1,46 @@
 body {
+    margin: 0;
+    padding: 0;
+    background: url('../assets/image-main.png') no-repeat center center fixed;
+    background-size: cover;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #ccc 3px solid;
-    text-align: center;
+
+.header-nav {
+    display: flex;
+    gap: 20px;
 }
-header h1 {
-    margin: 0;
-}
-h2 {
-    color: #333;
-}
-.content {
-    padding: 20px;
-    background: #fff;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-ul {
-    list-style: none;
-    padding: 0;
-}
-ul li {
-    background: #eee;
-    margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 4px;
-}
-.authors {
-    background: #eee;
-    padding: 10px;
-    border-radius: 4px;
-}
-.authors a {
-    color: #333;
+
+.header-nav a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
-.authors a:hover {
-    text-decoration: underline;
+
+.header-login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.content {
+    padding: 60px 20px 20px;
 }
