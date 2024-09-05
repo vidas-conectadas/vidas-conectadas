@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Monteserrat";
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 100vh;
+    background-color: #AF1111;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagegem-fundo.png) ;
+}
+
+form {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1 {
+    font-size: 50px 70px;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    padding: 10px;
+    align-self: center;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #FFC8C3;
+    border: solid 1px #FFC8C3;
+    border-right: 10px;
+    border-bottom-width: 4px;
+    font-size: 14px;
+    color: rgb(27, 23, 23);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+}
+
+a {
+color: rgb(112, 88, 57);
+
+}
+.barra-horizontal {
+    background-color: #AF1111;
+    height: 5px;
+    width: 220px;
+    gap: 10px;
+}
+
+.campo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Lembrar-me {
+    display: flex;
+    gap: 10px;
+}
+
+.Titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
