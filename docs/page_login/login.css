@@ -12,7 +12,6 @@ body {
     background-color: #AF1111;
     justify-content: center;
     align-items: center;
-    background-image: url(imagegem-fundo.png) ;
 }
 
 form {
@@ -28,19 +27,21 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-button {
+.btn-login {
     padding: 10px;
     align-self: center;
+    text-align: center;
     width: 160px;
     border-radius: 50px;
     background-color: #FFC8C3;
     border: solid 1px #FFC8C3;
-    border-right: 10px;
+    border-right: 20px;
     border-bottom-width: 4px;
     font-size: 14px;
     color: rgb(27, 23, 23);
     font-weight: 500;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 input{
