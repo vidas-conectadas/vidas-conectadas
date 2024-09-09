@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* PALETA DE CORES DO PROJETO
+#E33D3D
+#AF1111
+#DF0000
+#EA0000
+#F01111
+#2D82C6
+#FFC8C3
+#D1E4F3
+#D9D9D9
+*/
+
+:root{  /*PSEUDO-CLASS - AREA PRINCIPAL ONDE DECLARA AS VARIAVEIS GLOBAIS DO CSS*/
+    --cor1: #bd1717;
+    --cor2: #5f0808;
+    --cor3: #d31515;
+    --cor4: #e93939;
+    --cor5: #F01111;
+    --cor6: #2D82C6;
+    --cor7: #FFC8C3;
+    --cor8: #D1E4F3;
+    --cor9: #D9D9D9;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4)); /*DEGRADÊ DA COR 2 ATÉ A COR 4*/
+    font-family: var(--fonte-padrao);
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+nav > a{  
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+nav > a:hover {  /* QUANDO O CURSOR PASSAR POR CIMA, FICARÁ DESSA COR */
+    color: #5f0808;
+}
+
+body > div{
+    margin-left: 15px;
+}
+
+h2#Titulo{
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+body > div > h3{
+    font-family: var(--fonte-padrao);
+}
+
+body > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+}
+
+p#link{
+    color: #2D82C6;
+    font-size: small;
+    font-weight: 200;
+}
+
+p#info{
+    font-weight: bold;
+}
+
