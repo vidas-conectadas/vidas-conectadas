@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+
+
+header > nav {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav > a{  
+    color: white;
+    font-size: small;
+    padding-left: 0;
+}
+
+h2#Titulo{
+    font-size:large;
+    
+}
+
+
+body > div > p {
+    font-size: small;
+}
+
+
+body > div > h3 {
+    font-size: medium;
+}
+div#requisitos{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    gap: 10px;
+}
+
+ul#lista{
+    padding-left: 18px;
+    
+}
+
+p#telefone{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div#duvidas_frequentes{
+    margin-right: 10px;
+}
+
+
+footer{
+    font-size: small;
+}
