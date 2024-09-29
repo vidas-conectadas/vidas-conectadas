@@ -128,7 +128,6 @@ body {
     justify-content: space-between;
     font-weight: bolder;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 h1 {
@@ -206,7 +205,8 @@ tr:hover {
     margin: auto;
     padding: 20px;
     border: 1px solid black;
-    width: 40%;
+    max-width: 500px;
+    width: 60%;
 }
 
 .close {
@@ -266,7 +266,7 @@ tr:hover {
 }
 
 .input {
-    min-width: 280px;
+    min-width: 100px;
     border-radius: 22px;
     border: 2px #e65555 solid;
     padding: 5px;
