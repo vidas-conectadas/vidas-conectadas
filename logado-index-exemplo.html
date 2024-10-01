@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidas Conectadas</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 500px)">
+
+    <script src="https://kit.fontawesome.com/142e23d5c2.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <picture>
+        <img src="imgs/logo_mao.png" alt="" id="logo">
+    </picture>
+    <nav>
+        <a href="#">Onde Doar</a>
+        <a href="#">Requisitos</a>
+        <a href="#">Quem Somos</a>
+        <a href="#">Dúvidas Frequentes</a>
+    </nav>
+
+    <a href="historico.html" id="iconelogin">
+        <img src="./imgs/driver-license.png" alt="Descrição da imagem" style="width: 40px; height: 40px;">
+    </a>
+
+</header>
+
+<body>
+    <picture>
+        <img id="img_principal" src="imgs/image 2maior.png" alt="">
+    </picture>
+
+    <div class="container">
+        <div class="card">
+            <div class="icon-container red">
+                <img src="./imgs/seguranca-img.png" alt="" class="img-icons">
+            </div>
+            <h3>Simples e Seguro</h3>
+            <p>O processo de doação é relativamente rápido e seguro. Os riscos são mínimos, e as agências de coleta
+                seguem rigorosos protocolos de segurança e higiene.</p>
+        </div>
+        <div class="card">
+            <div class="icon-container blue">
+                <img src="./imgs/empatia-img.png" alt="" class="img-icons">
+            </div>
+            <h3>Salvar Vidas</h3>
+            <p>O motivo mais direto e importante é que a doação de sangue pode salvar vidas. Pacientes com condições
+                como câncer, anemia, ou aqueles que sofrem de acidentes graves frequentemente necessitam de transfusões
+                de sangue.</p>
+        </div>
+        <div class="card">
+            <div class="icon-container red">
+                <img src="./imgs/parceria-img.png" alt="" class="img-icons">
+            </div>
+            <h3>Incentivar Outros a Doar</h3>
+            <p>Sua ação pode inspirar amigos, familiares e colegas a também se tornarem doadores, ampliando o impacto
+                positivo e aumentando a quantidade de sangue disponível para quem precisa.</p>
+        </div>
+        <div class="card">
+            <div class="icon-container blue">
+                <img src="./imgs/doc-img.png" alt="" class="img-icons">
+            </div>
+            <h3>Testar a Saúde</h3>
+            <p>Antes de doar sangue, você passa por uma triagem que inclui testes de saúde básicos. Isso pode ser uma
+                forma de monitorar a sua própria saúde e identificar problemas potenciais.</p>
+        </div>
+    </div>
+
+    <div class="container-dados">
+        <img src="./imgs/banco-de-sangue.png" alt="" class="img-banco-sangue">
+    </div>
+
+    <div class="container-consultas">
+        <form id="form-cep" class="form-container">
+            <h2>Digite seu CEP e descubra o local mais próximo para doação</h2>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required>
+
+            <div class="flex-inputs">
+                <div class="input-group">
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua" name="rua" required>
+                </div>
+                <div class="input-group">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" required>
+                </div>
+            </div>
+            <div id="map" class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235237.00827445462!2d-47.232708568744556!3d-22.892032932237974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c61de74b6325%3A0x17e53a6a2178c22a!2sCampinas%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1727625572465!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+    <h2 id="Titulo">Requisitos para Doação</h2>
+    <div id="requisitos">
+    
+        <div id="texto_requisito">
+            <ul id="lista">
+                <li> Ter idade entre 16 e 69 anos, (menores de 18 anos devem apresentar consentimento formal do
+                    responsável
+                    legal);
+                </li>
+                <li>
+                    Pessoas com idade entre 60 e 69 anos só poderão doar sangue se já o tiverem feito antes dos 60 anos.
+                </li>
+                <li>
+                    Apresentar documento de identificação com foto emitido por órgão oficial (Carteira de Identidade,
+                    Carteira Nacional de Habilitação, Carteira de Trabalho, Passaporte, Registro Nacional de
+                    Estrangeiro,
+                    Certificado de Reservista e Carteira Profissional emitida por classe). São aceitos documentos
+                    digitais
+                    com foto.
+                </li>
+                <li>
+                    Pesar no mínimo 50 kg.
+                </li>
+                <li>
+                    Ter dormido pelo menos 6 horas nas últimas 24 horas.
+                </li>
+                <li>
+                    Estar alimentado. Evitar alimentos gordurosos nas 3 horas que antecedem a doação de sangue. Caso
+                    seja
+                    após o almoço, aguardar 2 horas.
+                </li>
+            </ul>
+            <p id="telefone"> Para mais informações, ligue (19) 3272-5501 - Hemocentro Mário Gatti</p>
+        </div>
+    </div>
+
+    <div class="container-beneficios">
+        <div class="column">
+            <img src="./imgs/meia-entrada-img.jpg" height="50%" width="100%">
+            <h2>Meia-entrada </h2>
+            <p>Em alguns estudos e municípios, os doadores regulares de sangue têm direito a pagar meia-entrada em
+                shows, cinemas, teatros e outros eventos culturais e esportivos.</p>
+        </div>
+        <div class="column">
+            <img src="./imgs/dispensa-trabalho-img.jpg" height="50%" width="100%">
+            <h2>Dispensa do trabalho </h2>
+            <p>De acordo com a Consolidação das Leis do Trabalho (CLT), o trabalhador tem direito a um dia de folga a
+                cada 12 meses trabalhados para doação de sangue voluntária, sem prejuízo no salário.</p>
+
+        </div>
+        <div class="column">
+            <img src="./imgs/prioridades-em-filas-img.jpg" height="50%" width="100%">
+            <h2>Prioridade em filas</h2>
+            <p>Em algumas cidades, doadores de sangue regulares podem ter prioridade em filas de atendimento, como em
+                bancos e repartições públicas.</p>
+
+
+        </div>
+        <div class="column">
+            <img src="./imgs/isenção-de-taxa-img.jpg" height="50%" width="100%">
+            <h2>Isenção da taxa </h2>
+            <p>Em algumas regiões, doadores regulares podem ser isentos do pagamento de taxa de inscrição em concursos
+                públicos municipais ou estaduais.</p>
+
+        </div>
+    </div>
+
+
+
+    <div id="duvidas_frequentes">
+        <h2 id="Titulo">DÚVIDAS FREQUENTES</h2>
+        <br>
+        <h3>Quem tem tatuagem pode doar sangue?</h3>
+        <p>Sim, desde que tenha feito a tatuagem há mais de um ano.</p>
+
+        <br>
+        <h3>Quem tem piercing pode doar sangue?</h3>
+        <p>Aguardar 12 meses após a data de realização ou 6 meses se o procedimento usou material estéril e/ou
+            descartável.<br>
+            Se o piercing for na cavidade oral e/ou região genital, deve aguardar 1 ano após a retirada. </p>
+
+        <br>
+        <h3>Quem tem procedimento estético pode doar sangue?</h3>
+        <p>O voluntário(a) que realizou qualquer procedimento estético recentemente precisa esperar alguns meses
+            para
+            doar sangue.</p>
+        <br>
+        <h3>Pode doar sangue menstruada?</h3>
+        <p>Sim. Não há nenhum problema quanto a isso.</p>
+
+        <br>
+        <h3>Quem fuma pode doar sangue?</h3>
+        <p>Para quem fuma cigarro: O recomendável é um intervalo sem fumar de pelo menos 2 horas antes.
+            Para quem fuma maconha: Se for a única droga consumida, a doação de sangue é permitida desde que o
+            candidato
+            não esteja sob o efeito da mesma. O uso de maconha impede a doação por 12 (doze) horas.</p>
+        <br>
+        <p id="info">Para mais informações, clique no link abaixo.</p>
+        <a href="http://www.hemocentro.fmrp.usp.br/canal-do-doador/duvidas-e-perguntas/"
+            style="color:orangered;">https://www.hemocentro.fmrp.usp.br/canal-do-doador/duvidas-e-perguntas/</a>
+    </div>
+    <footer>
+        <div id="iconesfooter">
+            <a href=""><i class="fa-brands fa-linkedin-in" style=" font-size: 25px; color: black;"></i></a>
+            <a href="https://github.com/vidas-conectadas/vidas-conectadas/blob/main/README.md"><i
+                    class="fa-brands fa-github" style=" font-size: 25px; color: black;"></i></a>
+        </div>
+        <div>
+            <p id="servicos">Serviços | Sobre | Políticas de Privacidade</p>
+            <p>© Vidas Conectadas | Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

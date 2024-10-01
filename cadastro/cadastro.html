@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cadastro.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form action="">
+        <a href="../Index.html" id="iconelogin">
+            <img src="../imgs/back-button.png" alt="voltar" style="width: 40px; height: 40px;">
+        </a>
+
+        <h1>Cadastro</h1>
+
+        <label for="fname">Nome*</label>
+        <input type="text" id="fname" name="fname" maxlength="10" minlength="3" required>
+
+        <label for="lsobrenome">Sobrenome*</label>
+        <input type="text" id="lsobrenome" name="lsobrenome" maxlength="10" minlength="3" required>
+
+        <label for="lemail">Email*</label>
+        <input type="email" id="lemail" name="lemail" required>
+
+        <label for="lemail">CPF*</label>
+        <input type="text" id="cpf" name="cpf" required>
+
+        <label for="lsenha">Senha*</label>
+        <input type="password" id="lsenha" name="lsenha" required maxlength="10" minlength="5">
+
+        <div class="radio-group">
+            <label>Já é doador?</label>
+
+            <input type="radio" id="sim" name="radio" value="sim" required>
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="radio" value="nao" required>
+            <label for="nao">Não</label>
+        </div>
+        <a href="login.html"><p id="acesso">Acesse aqui se ja for cadastrado</p></a>
+
+        <div class="form-actions">
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+</body>
+</html>
