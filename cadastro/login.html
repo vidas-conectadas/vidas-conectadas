@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">    <title>Formulário de Login</title>
+</head>
+<body>
+    <form id="loginForm" action="#">
+        <a href="cadastro.html" id="iconelogin">
+            <img src="../imgs/back-button.png" alt="voltar" style="width: 40px; height: 40px;">
+        </a>
+
+        <h1>Login</h1>
+
+        <label for="lemail">Email</label>
+        <input type="email" id="lemail" name="lemail" required>
+
+        <label for="lsenha">Senha</label>
+        <input type="password" id="lsenha" name="lsenha" required maxlength="10" minlength="5">
+        <a href="cadastro.html" class="link-criar-conta">Criar conta</a>
+
+        <div class="form-actions">
+            <input type="submit" value="Login">
+        </div>
+    </form>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('lemail').value;
+            const senha = document.getElementById('lsenha').value;
+
+            if (email === 'admin@gmail.com' && senha === 'adminuser') {
+                Toastify({
+                    text: "Login bem-sucedido!",
+                    duration: 3000,
+                    close: true,
+                    gravity: "top",
+                    position: "right",
+                    backgroundColor: "green",
+                    stopOnFocus: true
+                }).showToast();
+
+                setTimeout(function() {
+                    window.location.href = "http://127.0.0.1:5501/logado-index-exemplo.html"; // Redireciona para a página principal
+                }, 3000);
+            } else {
+                Toastify({
+                    text: "Credenciais inválidas!",
+                    duration: 3000,
+                    close: true,
+                    gravity: "top",
+                    position: "right",
+                    backgroundColor: "#FF5733",
+                    stopOnFocus: true
+                }).showToast();
+            }
+        });
+    </script>
+</body>
+</html>
