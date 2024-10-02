@@ -70,6 +70,24 @@ h2#Titulo{
     margin-top: 30px;
 }
 
+h2#duvidasTitulo{
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+h2#requisitosTitulo{
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
 body > div > h3{
     font-family: var(--fonte-padrao);
 }
