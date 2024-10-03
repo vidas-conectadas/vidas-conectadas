@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,25 @@
 
     <script src="https://kit.fontawesome.com/142e23d5c2.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
+    <header>
+        <picture>
+            <img src="imgs/logo_mao.png" alt="" id="logo">
+        </picture>
+        <nav>
+            <a href="#">Onde Doar</a>
+            <a href="#">Requisitos</a>
+            <a href="#">Dúvidas Frequentes</a>
+        </nav>
+
+        <a href="Index.html" id="iconelogin"><i class="fa-solid fa-user"
+                style="color: #ffffff; font-size: 40px;"></i></a>
+
+    </header>
+    <h1 id="Titulo_historico">Histórico de doações</h1>
     <div class="container">
-        <a href="./logado-index-exemplo.html" id="iconelogin">
-            <img src="../imgs/back-button.png" alt="voltar" style="width: 40px; height: 40px;">
-        </a>
-        <h1>Histórico de Doações</h1>
+        <i class="fa-solid fa-circle-arrow-left" style="color: #e93939; font-size: 20px;"></i>
         <div class="credenciais">
             <p>João da Silva</p>
             <p>123.456.789-00</p>
@@ -72,23 +85,23 @@
 
                 <form action="#">
                     <h2 class="title">Cadastrar</h2>
-    
+
                     <label for="date">Data da doação:</label>
                     <div class="input">
                         <i class="bi bi-calendar"></i>
                         <input type="date" id="date" name="date">
                     </div>
-    
+
                     <label for="local">Local:</label>
                     <div class="input">
                         <i class="bi bi-globe-americas"></i>
                         <input type="text" id="local" placeholder="Mario Gatti" name="local">
                     </div>
-    
+
                     <div id="btn">
-                        <button type="submit" >Cadastrar</button>
+                        <button type="submit">Cadastrar</button>
                     </div>
-    
+
                 </form>
 
             </div>
@@ -100,32 +113,29 @@
     <script>
 
         var modal = document.getElementById("myModal");
-        
+
         var btn = document.getElementById("myBtn");
         var btn = document.getElementById("myBtn");
-        
+
         var span = document.getElementsByClassName("close")[0];
-        
-        btn.onclick = function() {
+
+        btn.onclick = function () {
             modal.style.display = "block";
         };
-        
-        span.onclick = function() {
+
+        span.onclick = function () {
             modal.style.display = "none";
         }
-        
-        window.onclick = function(event) {
+
+        window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
             }
         }
-        
-        
-</script>
+
+
+    </script>
 
 </body>
-</html>
 
-
-</body>
 </html>

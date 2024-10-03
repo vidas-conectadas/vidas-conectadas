@@ -22,7 +22,7 @@
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4)); /*DEGRADÊ DA COR 2 ATÉ A COR 4*/
     font-family: var(--fonte-padrao);
-    width:96.8%;
+    width:full;
     text-align: center;
     display: flex;
     align-items: center;
@@ -30,6 +30,18 @@ header{
     padding-left: 20px;
     padding-right: 25px;
 }
+nav > a{  
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+nav > a:hover {  /* QUANDO O CURSOR PASSAR POR CIMA, FICARÁ DESSA COR */
+    color: #5f0808;
+}
+
+
 
 .menu-container {
     display: flex;
