@@ -6,8 +6,10 @@ Um projeto universitário da matéria de desenvolvimento web, criado com o intui
 
 ## Funcionalidades
 
-- Em breve...
-
+- Informações e incentivos sobre doação de sangue
+- Cadastro e login, para visualizar seu histórico de doações e data para a próxima
+- Visualização do banco de sangue, para conhecimento dos tipos que mais estão em falta
+- Consulta através de CEP para saber qual o ponto de doação mais próximo
 
 
 ## Stack utilizada
