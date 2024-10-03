@@ -69,6 +69,14 @@ h2#Titulo{
     padding-bottom: 20px;
     margin-top: 30px;
 }
+h2#Titulo2{
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
 
 h2#duvidasTitulo{
     color: var(--cor1);
